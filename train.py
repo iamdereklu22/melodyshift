@@ -1,5 +1,3 @@
-# train.py
-
 import os
 import torch
 import torch.nn as nn
@@ -37,20 +35,28 @@ def train(args):
     optimizer = optim.Adam(stylizer.parameters(), lr=args.lr)
     scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
 
+    # precompute ImageNet mean/std on the correct device & dtype
+    im_mean = torch.tensor([0.485, 0.456, 0.406], device=device)[None, :, None, None]
+    im_std  = torch.tensor([0.229, 0.224, 0.225], device=device)[None, :, None, None]
+
     # — training loop —
     best_val_loss = float('inf')
     for epoch in range(1, args.epochs + 1):
-        # Training
         stylizer.train()
         running_loss = 0.0
         for i, (content, style) in enumerate(train_loader, 1):
             content, style = content.to(device), style.to(device)
             out = stylizer(content)
 
+            # ImageNet-style normalization for VGG
+            content_norm = (content - im_mean) / im_std
+            style_norm   = (style   - im_mean) / im_std
+            out_norm     = (out     - im_mean) / im_std
+
             # Feature extraction
-            feats_out     = vgg(out)
-            feats_content = vgg(content)
-            feats_style   = vgg(style)
+            feats_out     = vgg(out_norm)
+            feats_content = vgg(content_norm)
+            feats_style   = vgg(style_norm)
 
             # Content loss
             c_loss = mse(feats_out["conv4_2"], feats_content["conv4_2"])
@@ -74,10 +80,10 @@ def train(args):
 
             running_loss += loss.item()
             if i % args.log_interval == 0:
-                print(f"[Epoch {epoch}/{args.epochs}] Batch {i}/{len(train_loader)} — Loss: {loss.item():.4f}")
+                # print(f"[Epoch {epoch}/{args.epochs}] Batch {i}/{len(train_loader)} — Loss: {loss.item():.4f}")
+                pass
 
         train_avg = running_loss / len(train_loader)
-        print(f"Epoch {epoch} complete. Train Avg Loss: {train_avg:.4f}")
 
         # Validation
         stylizer.eval()
@@ -86,13 +92,18 @@ def train(args):
             for content, style in val_loader:
                 content, style = content.to(device), style.to(device)
                 out = stylizer(content)
-                
-                feats_out = vgg(out)
-                feats_content = vgg(content)
-                feats_style = vgg(style)
-                
+
+                # ImageNet-style normalization for VGG
+                content_norm = (content - im_mean) / im_std
+                style_norm   = (style   - im_mean) / im_std
+                out_norm     = (out     - im_mean) / im_std
+
+                feats_out     = vgg(out_norm)
+                feats_content = vgg(content_norm)
+                feats_style   = vgg(style_norm)
+
                 c_loss = mse(feats_out["conv4_2"], feats_content["conv4_2"])
-                
+
                 s_loss = 0.0
                 for name in style_layers.values():
                     Gg = gram_matrix(feats_out[name])
@@ -100,12 +111,13 @@ def train(args):
                     s_loss += mse(Gg, Gt)
                 
                 r_loss = mse(out, content)
-                
+
                 loss = args.alpha * c_loss + args.beta * s_loss + args.gamma * r_loss
                 val_loss += loss.item()
         
         val_avg = val_loss / len(val_loader)
-        print(f"Validation Loss: {val_avg:.4f}")
+
+        print(f"Epoch {epoch} complete. \t Train Avg Loss: {train_avg:.4f} \t Validation Loss: {val_avg:.4f}")
         
         # Learning rate scheduling
         scheduler.step(val_avg)
@@ -115,12 +127,12 @@ def train(args):
             best_val_loss = val_avg
             ckpt = os.path.join(args.checkpoint_dir, "stylizer_best.pth")
             torch.save(stylizer.state_dict(), ckpt)
-            print(f"→ Saved best model to {ckpt}")
+            # print(f"→ Saved best model to {ckpt}")
         
         # Save checkpoint
         ckpt = os.path.join(args.checkpoint_dir, f"stylizer_epoch{epoch}.pth")
         torch.save(stylizer.state_dict(), ckpt)
-        print(f"→ Saved {ckpt}")
+        # print(f"→ Saved {ckpt}")
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description="Train fast audio style-transfer")

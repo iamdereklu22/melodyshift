@@ -7,13 +7,13 @@ import numpy as np
 from torch.utils.data import Dataset
 
 # Audio / spectrogram params
-SR = 16000
-N_MELS = 80
-N_FFT = 1024
-HOP_LENGTH = 160
-WIN_LENGTH = 400
+SR         = 22050       # preserve original sample rate
+N_FFT      = 2048        # larger FFT for finer frequency bins
+HOP_LENGTH = N_FFT // 4  # e.g., 512
+WIN_LENGTH = N_FFT       # full-window capture
+N_MELS     = 128         # more mel bands for timbral detail
 # increase for cleaner inversion
-GRIFFIN_LIM_ITERS = 200
+GRIFFIN_LIM_ITERS = 800
 
 def audio_to_mel(path):
     """Load audio, compute log-mel spectrogram and return normalization range."""
