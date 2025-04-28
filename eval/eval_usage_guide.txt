@@ -1,0 +1,7 @@
+To evaluate generated audios for style transfer, do the following:
+
+1. Upload the style-transferred audios in .wav and .mp3 format with similar naming scheme to benchmarks
+2. Modify the file paths for chroma_score.py and compute_clap_scores.py with your modified file names.
+3. Run python chroma_score.py and python compute_clap_scores.py to get chroma scores and CLAP scores respectively.
+4. Output for the metrics are printed in your terminal.
+5. To run genre classification, upload your style-transferred audio to the genre classifier website.
