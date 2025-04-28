@@ -1,0 +1,436 @@
+[Epoch 1/100] Batch 10/14 — Loss: 2433.5542
+Epoch 1 complete. Train Avg Loss: 2477.9129
+Validation Loss: 1944.1025
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch1.pth
+[Epoch 2/100] Batch 10/14 — Loss: 1658.8510
+Epoch 2 complete. Train Avg Loss: 1749.2654
+Validation Loss: 1518.4519
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch2.pth
+[Epoch 3/100] Batch 10/14 — Loss: 1352.9552
+Epoch 3 complete. Train Avg Loss: 1420.7183
+Validation Loss: 1317.0591
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch3.pth
+[Epoch 4/100] Batch 10/14 — Loss: 1184.7201
+Epoch 4 complete. Train Avg Loss: 1239.3515
+Validation Loss: 1210.5186
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch4.pth
+[Epoch 5/100] Batch 10/14 — Loss: 1163.4019
+Epoch 5 complete. Train Avg Loss: 1124.2013
+Validation Loss: 1155.5632
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch5.pth
+[Epoch 6/100] Batch 10/14 — Loss: 962.9590
+Epoch 6 complete. Train Avg Loss: 1025.0637
+Validation Loss: 1080.0756
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch6.pth
+[Epoch 7/100] Batch 10/14 — Loss: 984.2070
+Epoch 7 complete. Train Avg Loss: 940.3016
+Validation Loss: 1041.7636
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch7.pth
+[Epoch 8/100] Batch 10/14 — Loss: 953.8674
+Epoch 8 complete. Train Avg Loss: 875.9395
+Validation Loss: 1018.9904
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch8.pth
+[Epoch 9/100] Batch 10/14 — Loss: 841.8865
+Epoch 9 complete. Train Avg Loss: 843.1405
+Validation Loss: 1053.5281
+→ Saved checkpoints/stylizer_epoch9.pth
+[Epoch 10/100] Batch 10/14 — Loss: 844.2363
+Epoch 10 complete. Train Avg Loss: 810.5972
+Validation Loss: 988.7455
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch10.pth
+[Epoch 11/100] Batch 10/14 — Loss: 700.9406
+Epoch 11 complete. Train Avg Loss: 760.5983
+Validation Loss: 980.6360
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch11.pth
+[Epoch 12/100] Batch 10/14 — Loss: 650.5455
+Epoch 12 complete. Train Avg Loss: 728.6488
+Validation Loss: 965.5205
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch12.pth
+[Epoch 13/100] Batch 10/14 — Loss: 701.7080
+Epoch 13 complete. Train Avg Loss: 690.9886
+Validation Loss: 951.3001
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch13.pth
+[Epoch 14/100] Batch 10/14 — Loss: 647.4116
+Epoch 14 complete. Train Avg Loss: 663.2801
+Validation Loss: 951.9207
+→ Saved checkpoints/stylizer_epoch14.pth
+[Epoch 15/100] Batch 10/14 — Loss: 670.9650
+Epoch 15 complete. Train Avg Loss: 649.0069
+Validation Loss: 944.1646
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch15.pth
+[Epoch 16/100] Batch 10/14 — Loss: 566.9579
+Epoch 16 complete. Train Avg Loss: 624.8993
+Validation Loss: 940.4102
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch16.pth
+[Epoch 17/100] Batch 10/14 — Loss: 670.9700
+Epoch 17 complete. Train Avg Loss: 600.8157
+Validation Loss: 929.1190
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch17.pth
+[Epoch 18/100] Batch 10/14 — Loss: 549.4148
+Epoch 18 complete. Train Avg Loss: 576.5283
+Validation Loss: 929.4915
+→ Saved checkpoints/stylizer_epoch18.pth
+[Epoch 19/100] Batch 10/14 — Loss: 603.3059
+Epoch 19 complete. Train Avg Loss: 562.3031
+Validation Loss: 919.6238
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch19.pth
+[Epoch 20/100] Batch 10/14 — Loss: 514.7566
+Epoch 20 complete. Train Avg Loss: 545.3238
+Validation Loss: 918.5296
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch20.pth
+[Epoch 21/100] Batch 10/14 — Loss: 453.0204
+Epoch 21 complete. Train Avg Loss: 527.3280
+Validation Loss: 917.6132
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch21.pth
+[Epoch 22/100] Batch 10/14 — Loss: 485.1692
+Epoch 22 complete. Train Avg Loss: 509.1614
+Validation Loss: 911.4084
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch22.pth
+[Epoch 23/100] Batch 10/14 — Loss: 467.3250
+Epoch 23 complete. Train Avg Loss: 498.1130
+Validation Loss: 924.3172
+→ Saved checkpoints/stylizer_epoch23.pth
+[Epoch 24/100] Batch 10/14 — Loss: 466.4325
+Epoch 24 complete. Train Avg Loss: 489.9327
+Validation Loss: 907.5039
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch24.pth
+[Epoch 25/100] Batch 10/14 — Loss: 503.3956
+Epoch 25 complete. Train Avg Loss: 477.3244
+Validation Loss: 907.7391
+→ Saved checkpoints/stylizer_epoch25.pth
+[Epoch 26/100] Batch 10/14 — Loss: 437.2781
+Epoch 26 complete. Train Avg Loss: 467.0289
+Validation Loss: 909.9922
+→ Saved checkpoints/stylizer_epoch26.pth
+[Epoch 27/100] Batch 10/14 — Loss: 462.8973
+Epoch 27 complete. Train Avg Loss: 457.3765
+Validation Loss: 900.4633
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch27.pth
+[Epoch 28/100] Batch 10/14 — Loss: 503.0747
+Epoch 28 complete. Train Avg Loss: 445.0241
+Validation Loss: 902.0645
+→ Saved checkpoints/stylizer_epoch28.pth
+[Epoch 29/100] Batch 10/14 — Loss: 471.0118
+Epoch 29 complete. Train Avg Loss: 435.7501
+Validation Loss: 901.8853
+→ Saved checkpoints/stylizer_epoch29.pth
+[Epoch 30/100] Batch 10/14 — Loss: 432.2710
+Epoch 30 complete. Train Avg Loss: 427.4945
+Validation Loss: 901.3218
+Epoch 00030: reducing learning rate of group 0 to 5.0000e-05.
+→ Saved checkpoints/stylizer_epoch30.pth
+[Epoch 31/100] Batch 10/14 — Loss: 438.1414
+Epoch 31 complete. Train Avg Loss: 407.9728
+Validation Loss: 898.4523
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch31.pth
+[Epoch 32/100] Batch 10/14 — Loss: 382.0061
+Epoch 32 complete. Train Avg Loss: 400.6642
+Validation Loss: 889.8766
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch32.pth
+[Epoch 33/100] Batch 10/14 — Loss: 359.0656
+Epoch 33 complete. Train Avg Loss: 393.7851
+Validation Loss: 892.0694
+→ Saved checkpoints/stylizer_epoch33.pth
+[Epoch 34/100] Batch 10/14 — Loss: 413.6824
+Epoch 34 complete. Train Avg Loss: 389.0444
+Validation Loss: 893.0289
+→ Saved checkpoints/stylizer_epoch34.pth
+[Epoch 35/100] Batch 10/14 — Loss: 383.5188
+Epoch 35 complete. Train Avg Loss: 385.6733
+Validation Loss: 893.9249
+Epoch 00035: reducing learning rate of group 0 to 2.5000e-05.
+→ Saved checkpoints/stylizer_epoch35.pth
+[Epoch 36/100] Batch 10/14 — Loss: 369.7957
+Epoch 36 complete. Train Avg Loss: 377.6822
+Validation Loss: 891.7987
+→ Saved checkpoints/stylizer_epoch36.pth
+[Epoch 37/100] Batch 10/14 — Loss: 358.3899
+Epoch 37 complete. Train Avg Loss: 374.0570
+Validation Loss: 887.1129
+→ Saved best model to checkpoints/stylizer_best.pth
+→ Saved checkpoints/stylizer_epoch37.pth
+[Epoch 38/100] Batch 10/14 — Loss: 347.5571
+Epoch 38 complete. Train Avg Loss: 371.8638
+Validation Loss: 889.2125
+→ Saved checkpoints/stylizer_epoch38.pth
+[Epoch 39/100] Batch 10/14 — Loss: 385.0744
+Epoch 39 complete. Train Avg Loss: 368.8152
+Validation Loss: 896.3288
+→ Saved checkpoints/stylizer_epoch39.pth
+[Epoch 40/100] Batch 10/14 — Loss: 347.7919
+Epoch 40 complete. Train Avg Loss: 366.9189
+Validation Loss: 891.9959
+Epoch 00040: reducing learning rate of group 0 to 1.2500e-05.
+→ Saved checkpoints/stylizer_epoch40.pth
+[Epoch 41/100] Batch 10/14 — Loss: 361.9174
+Epoch 41 complete. Train Avg Loss: 365.0019
+Validation Loss: 889.9624
+→ Saved checkpoints/stylizer_epoch41.pth
+[Epoch 42/100] Batch 10/14 — Loss: 363.5463
+Epoch 42 complete. Train Avg Loss: 363.0780
+Validation Loss: 890.9707
+→ Saved checkpoints/stylizer_epoch42.pth
+[Epoch 43/100] Batch 10/14 — Loss: 375.9309
+Epoch 43 complete. Train Avg Loss: 361.3206
+Validation Loss: 890.0552
+Epoch 00043: reducing learning rate of group 0 to 6.2500e-06.
+→ Saved checkpoints/stylizer_epoch43.pth
+[Epoch 44/100] Batch 10/14 — Loss: 323.9155
+Epoch 44 complete. Train Avg Loss: 361.4125
+Validation Loss: 891.8438
+→ Saved checkpoints/stylizer_epoch44.pth
+[Epoch 45/100] Batch 10/14 — Loss: 327.3428
+Epoch 45 complete. Train Avg Loss: 360.3123
+Validation Loss: 888.0221
+→ Saved checkpoints/stylizer_epoch45.pth
+[Epoch 46/100] Batch 10/14 — Loss: 366.7312
+Epoch 46 complete. Train Avg Loss: 358.4295
+Validation Loss: 889.9408
+Epoch 00046: reducing learning rate of group 0 to 3.1250e-06.
+→ Saved checkpoints/stylizer_epoch46.pth
+[Epoch 47/100] Batch 10/14 — Loss: 376.5807
+Epoch 47 complete. Train Avg Loss: 358.4735
+Validation Loss: 890.7319
+→ Saved checkpoints/stylizer_epoch47.pth
+[Epoch 48/100] Batch 10/14 — Loss: 374.3256
+Epoch 48 complete. Train Avg Loss: 359.0632
+Validation Loss: 890.2564
+→ Saved checkpoints/stylizer_epoch48.pth
+[Epoch 49/100] Batch 10/14 — Loss: 367.9588
+Epoch 49 complete. Train Avg Loss: 359.0232
+Validation Loss: 892.5888
+Epoch 00049: reducing learning rate of group 0 to 1.5625e-06.
+→ Saved checkpoints/stylizer_epoch49.pth
+[Epoch 50/100] Batch 10/14 — Loss: 382.7341
+Epoch 50 complete. Train Avg Loss: 357.7691
+Validation Loss: 891.5088
+→ Saved checkpoints/stylizer_epoch50.pth
+[Epoch 51/100] Batch 10/14 — Loss: 333.4803
+Epoch 51 complete. Train Avg Loss: 357.2131
+Validation Loss: 889.9714
+→ Saved checkpoints/stylizer_epoch51.pth
+[Epoch 52/100] Batch 10/14 — Loss: 337.3422
+Epoch 52 complete. Train Avg Loss: 357.6181
+Validation Loss: 892.0640
+Epoch 00052: reducing learning rate of group 0 to 7.8125e-07.
+→ Saved checkpoints/stylizer_epoch52.pth
+[Epoch 53/100] Batch 10/14 — Loss: 367.7988
+Epoch 53 complete. Train Avg Loss: 357.1419
+Validation Loss: 889.4366
+→ Saved checkpoints/stylizer_epoch53.pth
+[Epoch 54/100] Batch 10/14 — Loss: 395.7698
+Epoch 54 complete. Train Avg Loss: 356.6193
+Validation Loss: 889.9762
+→ Saved checkpoints/stylizer_epoch54.pth
+[Epoch 55/100] Batch 10/14 — Loss: 337.2678
+Epoch 55 complete. Train Avg Loss: 357.5451
+Validation Loss: 890.2735
+Epoch 00055: reducing learning rate of group 0 to 3.9063e-07.
+→ Saved checkpoints/stylizer_epoch55.pth
+[Epoch 56/100] Batch 10/14 — Loss: 338.5712
+Epoch 56 complete. Train Avg Loss: 356.8004
+Validation Loss: 891.6360
+→ Saved checkpoints/stylizer_epoch56.pth
+[Epoch 57/100] Batch 10/14 — Loss: 351.3770
+Epoch 57 complete. Train Avg Loss: 358.1316
+Validation Loss: 889.7234
+→ Saved checkpoints/stylizer_epoch57.pth
+[Epoch 58/100] Batch 10/14 — Loss: 343.3707
+Epoch 58 complete. Train Avg Loss: 357.7392
+Validation Loss: 889.2968
+Epoch 00058: reducing learning rate of group 0 to 1.9531e-07.
+→ Saved checkpoints/stylizer_epoch58.pth
+[Epoch 59/100] Batch 10/14 — Loss: 346.7530
+Epoch 59 complete. Train Avg Loss: 358.1552
+Validation Loss: 889.7498
+→ Saved checkpoints/stylizer_epoch59.pth
+[Epoch 60/100] Batch 10/14 — Loss: 379.6892
+Epoch 60 complete. Train Avg Loss: 356.5687
+Validation Loss: 890.6224
+→ Saved checkpoints/stylizer_epoch60.pth
+[Epoch 61/100] Batch 10/14 — Loss: 350.9097
+Epoch 61 complete. Train Avg Loss: 356.8287
+Validation Loss: 890.1684
+Epoch 00061: reducing learning rate of group 0 to 9.7656e-08.
+→ Saved checkpoints/stylizer_epoch61.pth
+[Epoch 62/100] Batch 10/14 — Loss: 386.5894
+Epoch 62 complete. Train Avg Loss: 356.5539
+Validation Loss: 889.2448
+→ Saved checkpoints/stylizer_epoch62.pth
+[Epoch 63/100] Batch 10/14 — Loss: 368.0272
+Epoch 63 complete. Train Avg Loss: 356.7660
+Validation Loss: 891.3080
+→ Saved checkpoints/stylizer_epoch63.pth
+[Epoch 64/100] Batch 10/14 — Loss: 396.3789
+Epoch 64 complete. Train Avg Loss: 356.7632
+Validation Loss: 892.5576
+Epoch 00064: reducing learning rate of group 0 to 4.8828e-08.
+→ Saved checkpoints/stylizer_epoch64.pth
+[Epoch 65/100] Batch 10/14 — Loss: 385.6545
+Epoch 65 complete. Train Avg Loss: 357.0910
+Validation Loss: 890.0338
+→ Saved checkpoints/stylizer_epoch65.pth
+[Epoch 66/100] Batch 10/14 — Loss: 352.7939
+Epoch 66 complete. Train Avg Loss: 356.3603
+Validation Loss: 890.8427
+→ Saved checkpoints/stylizer_epoch66.pth
+[Epoch 67/100] Batch 10/14 — Loss: 331.6894
+Epoch 67 complete. Train Avg Loss: 357.2462
+Validation Loss: 889.5982
+Epoch 00067: reducing learning rate of group 0 to 2.4414e-08.
+→ Saved checkpoints/stylizer_epoch67.pth
+[Epoch 68/100] Batch 10/14 — Loss: 348.1699
+Epoch 68 complete. Train Avg Loss: 356.0985
+Validation Loss: 889.6549
+→ Saved checkpoints/stylizer_epoch68.pth
+[Epoch 69/100] Batch 10/14 — Loss: 368.3064
+Epoch 69 complete. Train Avg Loss: 356.8477
+Validation Loss: 891.4233
+→ Saved checkpoints/stylizer_epoch69.pth
+[Epoch 70/100] Batch 10/14 — Loss: 348.5778
+Epoch 70 complete. Train Avg Loss: 356.4855
+Validation Loss: 890.4850
+Epoch 00070: reducing learning rate of group 0 to 1.2207e-08.
+→ Saved checkpoints/stylizer_epoch70.pth
+[Epoch 71/100] Batch 10/14 — Loss: 371.6997
+Epoch 71 complete. Train Avg Loss: 356.9122
+Validation Loss: 891.3372
+→ Saved checkpoints/stylizer_epoch71.pth
+[Epoch 72/100] Batch 10/14 — Loss: 424.1434
+Epoch 72 complete. Train Avg Loss: 356.6887
+Validation Loss: 892.5811
+→ Saved checkpoints/stylizer_epoch72.pth
+[Epoch 73/100] Batch 10/14 — Loss: 308.5996
+Epoch 73 complete. Train Avg Loss: 358.8095
+Validation Loss: 890.2500
+→ Saved checkpoints/stylizer_epoch73.pth
+[Epoch 74/100] Batch 10/14 — Loss: 349.6140
+Epoch 74 complete. Train Avg Loss: 356.7942
+Validation Loss: 889.7010
+→ Saved checkpoints/stylizer_epoch74.pth
+[Epoch 75/100] Batch 10/14 — Loss: 366.9221
+Epoch 75 complete. Train Avg Loss: 357.8408
+Validation Loss: 890.1712
+→ Saved checkpoints/stylizer_epoch75.pth
+[Epoch 76/100] Batch 10/14 — Loss: 321.6425
+Epoch 76 complete. Train Avg Loss: 357.8024
+Validation Loss: 890.6622
+→ Saved checkpoints/stylizer_epoch76.pth
+[Epoch 77/100] Batch 10/14 — Loss: 354.9688
+Epoch 77 complete. Train Avg Loss: 356.7522
+Validation Loss: 890.6304
+→ Saved checkpoints/stylizer_epoch77.pth
+[Epoch 78/100] Batch 10/14 — Loss: 418.6197
+Epoch 78 complete. Train Avg Loss: 356.1169
+Validation Loss: 887.8108
+→ Saved checkpoints/stylizer_epoch78.pth
+[Epoch 79/100] Batch 10/14 — Loss: 380.1984
+Epoch 79 complete. Train Avg Loss: 357.4687
+Validation Loss: 889.0003
+→ Saved checkpoints/stylizer_epoch79.pth
+[Epoch 80/100] Batch 10/14 — Loss: 343.0791
+Epoch 80 complete. Train Avg Loss: 356.6597
+Validation Loss: 893.8709
+→ Saved checkpoints/stylizer_epoch80.pth
+[Epoch 81/100] Batch 10/14 — Loss: 368.4039
+Epoch 81 complete. Train Avg Loss: 356.1491
+Validation Loss: 890.0851
+→ Saved checkpoints/stylizer_epoch81.pth
+[Epoch 82/100] Batch 10/14 — Loss: 412.3303
+Epoch 82 complete. Train Avg Loss: 356.9816
+Validation Loss: 889.1514
+→ Saved checkpoints/stylizer_epoch82.pth
+[Epoch 83/100] Batch 10/14 — Loss: 352.8028
+Epoch 83 complete. Train Avg Loss: 357.4143
+Validation Loss: 888.6859
+→ Saved checkpoints/stylizer_epoch83.pth
+[Epoch 84/100] Batch 10/14 — Loss: 374.1666
+Epoch 84 complete. Train Avg Loss: 356.4550
+Validation Loss: 889.3161
+→ Saved checkpoints/stylizer_epoch84.pth
+[Epoch 85/100] Batch 10/14 — Loss: 332.6397
+Epoch 85 complete. Train Avg Loss: 356.4723
+Validation Loss: 891.9918
+→ Saved checkpoints/stylizer_epoch85.pth
+[Epoch 86/100] Batch 10/14 — Loss: 325.7690
+Epoch 86 complete. Train Avg Loss: 356.8806
+Validation Loss: 889.5168
+→ Saved checkpoints/stylizer_epoch86.pth
+[Epoch 87/100] Batch 10/14 — Loss: 323.6038
+Epoch 87 complete. Train Avg Loss: 355.8680
+Validation Loss: 890.6502
+→ Saved checkpoints/stylizer_epoch87.pth
+[Epoch 88/100] Batch 10/14 — Loss: 367.6861
+Epoch 88 complete. Train Avg Loss: 356.4752
+Validation Loss: 887.6230
+→ Saved checkpoints/stylizer_epoch88.pth
+[Epoch 89/100] Batch 10/14 — Loss: 348.1277
+Epoch 89 complete. Train Avg Loss: 356.6109
+Validation Loss: 892.0905
+→ Saved checkpoints/stylizer_epoch89.pth
+[Epoch 90/100] Batch 10/14 — Loss: 340.5927
+Epoch 90 complete. Train Avg Loss: 356.2935
+Validation Loss: 890.6295
+→ Saved checkpoints/stylizer_epoch90.pth
+[Epoch 91/100] Batch 10/14 — Loss: 406.9753
+Epoch 91 complete. Train Avg Loss: 356.2206
+Validation Loss: 888.5568
+→ Saved checkpoints/stylizer_epoch91.pth
+[Epoch 92/100] Batch 10/14 — Loss: 381.8385
+Epoch 92 complete. Train Avg Loss: 355.8374
+Validation Loss: 888.8708
+→ Saved checkpoints/stylizer_epoch92.pth
+[Epoch 93/100] Batch 10/14 — Loss: 349.6674
+Epoch 93 complete. Train Avg Loss: 356.0980
+Validation Loss: 892.0258
+→ Saved checkpoints/stylizer_epoch93.pth
+[Epoch 94/100] Batch 10/14 — Loss: 385.6114
+Epoch 94 complete. Train Avg Loss: 356.4087
+Validation Loss: 888.9917
+→ Saved checkpoints/stylizer_epoch94.pth
+[Epoch 95/100] Batch 10/14 — Loss: 307.2098
+Epoch 95 complete. Train Avg Loss: 356.1253
+Validation Loss: 891.9555
+→ Saved checkpoints/stylizer_epoch95.pth
+[Epoch 96/100] Batch 10/14 — Loss: 337.9218
+Epoch 96 complete. Train Avg Loss: 356.9123
+Validation Loss: 891.5186
+→ Saved checkpoints/stylizer_epoch96.pth
+[Epoch 97/100] Batch 10/14 — Loss: 391.3072
+Epoch 97 complete. Train Avg Loss: 357.8989
+Validation Loss: 892.8287
+→ Saved checkpoints/stylizer_epoch97.pth
+[Epoch 98/100] Batch 10/14 — Loss: 346.9407
+Epoch 98 complete. Train Avg Loss: 357.2388
+Validation Loss: 888.4356
+→ Saved checkpoints/stylizer_epoch98.pth
+[Epoch 99/100] Batch 10/14 — Loss: 397.9499
+Epoch 99 complete. Train Avg Loss: 356.4909
+Validation Loss: 889.1812
+→ Saved checkpoints/stylizer_epoch99.pth
+[Epoch 100/100] Batch 10/14 — Loss: 316.0432
+Epoch 100 complete. Train Avg Loss: 356.9768
+Validation Loss: 888.9863

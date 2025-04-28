@@ -6,8 +6,8 @@ from datasets import audio_to_mel, mel_to_audio
 from models import TransformerNet
 
 SR = 16000
-CHECKPOINT = "checkpoints/stylizer_epoch30.pth"
-CONTENT_DIR = "data/contents/"
+CHECKPOINT = "checkpoints/stylizer_best.pth"
+CONTENT_DIR = "data/eval/"
 OUT_DIR     = "outputs/"
 os.makedirs(OUT_DIR, exist_ok=True)
 
