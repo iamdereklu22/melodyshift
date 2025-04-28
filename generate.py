@@ -15,6 +15,12 @@ stylizer = TransformerNet().to(device)
 stylizer.load_state_dict(torch.load('checkpoints/stylizer_best.pth', map_location=device))
 stylizer.eval()
 
+SR         = 22050       # preserve original sample rate
+N_FFT      = 2048        # larger FFT for finer frequency bins
+HOP_LENGTH = N_FFT // 4  # e.g., 512
+WIN_LENGTH = N_FFT       # full-window capture
+N_MELS     = 128         # more mel bands for timbral detail
+
 # ensure output directory
 OUT_DIR = 'outputs_residual'
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -48,7 +54,7 @@ for fname in os.listdir('data/eval'):
     mel_db = out * (orig_max - orig_min) + orig_min
     S      = librosa.db_to_power(mel_db)
     y      = librosa.feature.inverse.mel_to_audio(
-        S, sr=SR, n_fft=1024, hop_length=160, win_length=400, n_iter=800
+        S, sr=SR, n_fft=N_FFT, hop_length=HOP_LENGTH, win_length=WIN_LENGTH, n_iter=800
     )
 
     # normalize & save
