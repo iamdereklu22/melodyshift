@@ -1,5 +1,0 @@
-torch>=1.13
-torchvision
-librosa>=0.9.0
-numpy
-soundfile        # for writing WAVs
