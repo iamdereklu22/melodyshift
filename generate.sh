@@ -1,0 +1,1 @@
+python generate.py --checkpoint checkpoints/stylizer_best.pth
